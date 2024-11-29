@@ -1,6 +1,7 @@
 package com.yedam.variable;
 // 파일이름.java => 클래스의 이름은 같아야 됨.
 
+
 public class intExe1 {
 	public static void main(String[] args) {
 		int myAge =  20;

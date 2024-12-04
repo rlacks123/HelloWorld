@@ -60,9 +60,9 @@ public class Board {
 		return writeDate;
 	}
 	public String showInfo() { // 목록보여줄 메소드
-		String yyyymmdd = writeDate.getYear() + 1900) + "년 "
-	            + writeDate.getMonth() + 1) + "월 " 
-		        + writeDate.getDate();
+		String yyyymmdd = (writeDate.getYear() + 1900) + "년 " 
+		        + (writeDate.getMonth() + 1) + "월 " 
+		        + writeDate.getDate() + "일";
 		return " " + boardNo + " " + title + " " + writer + " " + yyyymmdd;
 	}
 

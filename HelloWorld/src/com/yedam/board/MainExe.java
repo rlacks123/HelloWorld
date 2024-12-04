@@ -1,5 +1,6 @@
 package com.yedam.board;
 
+import java.util.Date;
 import java.util.Scanner;
 /*
 <게시판 기능>

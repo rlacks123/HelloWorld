@@ -1,4 +1,7 @@
 package com.yedam.board;
+
+import java.util.Date;
+
 /*
  * 1.등록 2.목록
  */

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.yedam.common.DAO;
+import com.yedam.vo.BoardVO;
 
 public class BoardDAO extends DAO {
 	
@@ -81,8 +82,8 @@ public class BoardDAO extends DAO {
 			brd.setContent(rs.getString("content"));
 			brd.setWriter(rs.getString("writer"));
 			brd.setView_cnt(rs.getInt("view_cnt"));
-			brd.setCreationDate(rs.getString("creationDate"));
-			brd.setUpdateDate(rs.getString("updateDate"));
+			brd.setCreationDate(rs.getString("creation_date"));
+			brd.setUpdateDate(rs.getString("update_date"));
 			
 			result.add(brd); // ArrayList에 추가.
 		 }

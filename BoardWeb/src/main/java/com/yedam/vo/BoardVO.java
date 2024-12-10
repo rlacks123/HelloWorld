@@ -1,4 +1,4 @@
-package com.yedam.jdbc;
+package com.yedam.vo;
 
 import java.sql.Date;
 
